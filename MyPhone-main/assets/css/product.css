@@ -1,0 +1,156 @@
+.products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 15%;
+}
+
+.product {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /*max-width: 250px;*/
+    /*min-height: 35%;*/
+    /*height: 400px;*/
+    max-height: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0000001F;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000000;
+    background-color: white;
+}
+/*product:hover{*/
+/*    transform: translateY(-100px);*/
+/*}*/
+
+.product_image {
+    display: flex;
+    /*width: 250px;*/
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    object-fit: cover;
+    object-position: center center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+
+.product_info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    word-wrap: break-word;
+
+}
+.product_info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    /*text-align: center;*/
+}
+
+.product_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 50px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Montserrat SemiBold";
+}
+
+.product_name:hover{
+    text-decoration: underline;
+}
+
+.product_price {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Montserrat Light";
+}
+
+.product_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+
+.product_button {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(93, 195, 255, 0.44);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0 0 10px #00000020;
+    height: 100%;
+    width: 5vh;
+    font-family: Montserrat;
+}
+
+.product_button_more {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(93, 195, 255, 0.44);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0 0 10px #00000020;
+    height: 100%;
+    width: 20vh;
+    font-family: Montserrat;
+}
+
+.product_button:hover {
+    background: #5b919c;
+
+}
+
+.card-btn {
+    display: flex;
+    width: 30px;
+    font-size: 35px;
+    padding: 0;
+}
+
+.category_name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    /*font-weight: bolder;*/
+    font-size: 25px;
+    /*background-color: #d9d9d9;*/
+    /*box-shadow: 0 0 10px #00000020;*/
+
+}
+.product_area
+{
+    color: #ffffff;
+    font-family: Montserrat;
+}
+

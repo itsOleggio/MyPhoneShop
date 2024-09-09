@@ -1,0 +1,206 @@
+nav {
+    height: 100%;
+    width: 1100px;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.header_up {
+    background: rgb(235, 235, 235);
+    min-height: 40px;
+    height: 40px;
+}
+
+.header_middle {
+    min-height: 60px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(91, 145, 156, 1) 50%, rgba(9, 9, 121, 1) 100%);
+    padding: 20px;
+}
+
+.header_middle ul li {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 100%;
+    min-width: 200px;
+}
+
+.header_middle ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header_down {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(91, 145, 156, 1) 50%, rgba(9, 9, 121, 1) 100%);
+    min-height: 40px;
+    height: 40px;
+}
+
+.my_ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my_li {
+    display: flex;
+    min-width: 175px;
+    justify-content: center;
+
+}
+
+.my_li:hover {
+    background: rgba(97, 161, 238, 0.47);
+    border-radius: 50px;
+}
+
+.header_text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    font-family: "Montserrat SemiBold";
+}
+
+.header_text:hover {
+    text-decoration: underline;
+}
+
+.header_middle_text {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+/* Cabinet button*/
+
+.cabinet_button_text {
+    color: rgb(255, 255, 255);
+}
+
+.cabinet_button:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.cabinet_button_image {
+    display: flex;
+    height: 42px;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.cabinet_button {
+    font-size: large;
+    float: right;
+    display: flex;
+    height: 60px;
+    /*width: 150px;*/
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer
+}
+
+.logo {
+    font-family: "Montserrat ExtraLight";
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bolder;
+    color: rgb(188, 232, 27);
+    padding: 10%;
+}
+
+
+
+/*     Cart    */
+.cart-button {
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 2px;
+    background: rgba(227, 187, 113, 0.68);
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    font-size: small;
+    color: #ffffff;
+    font-family: "Montserrat Light";
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button:hover {
+    background: #6fe4ff;
+}
+
+#cart-num {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgba(84, 146, 178, 0);
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-basket {
+    position: fixed;
+    background: linear-gradient(to right, #3084b9 0%, #54a27a 100%);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    min-height: 60px;
+    padding: 20px;
+}
+
+.wrap {
+    width: 10px; /*фиксируем ширину обертки*/
+    margin: 0 auto; /*центрируем ее*/
+}
+
+.corz {
+    width: 100%;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.left {
+    width: 15%;
+    display: inline-block;
+    float: left;
+}
+
+.right {
+    width: 15%;
+    float: right;
+}
+
+ul.lk_header {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+ul.lk_header li {
+    display: flex;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
